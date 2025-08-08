@@ -10,7 +10,7 @@
   "authors": "Catherine Guelque, Valentin Honoré, Philippe Swartvagher, Gaël Thomas, François Trahay",
   "venue": "2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2025)",
   "year": "2025",
-  "url": "https://inria.hal.science/hal-04970114v0",
+  "url": "https://inria.hal.science/hal-04970114v0"
 ```
 
 ``` json {.paper}
