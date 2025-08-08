@@ -72,29 +72,23 @@ A complete list of publications is available [here](publications.md).
   "authors": "Catherine Guelque, Valentin Honoré, Philippe Swartvagher, Gaël Thomas, François Trahay",
   "venue": "2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2025)",
   "year": "2025",
-  "files": [
-    { "text": "HAL", "type": "link", "src": "https://inria.hal.science/hal-04970114v0" },
-    { "text": "PDF", "type": "pdf", "src": "https://inria.hal.science/hal-04970114v0/document" },
-    { "text": "ARTIFACT", "type": "code", "src": "https://gitlab.inria.fr/pallas/IPDPS2025_Reproducibility" }
-  ]
+  "url": "https://inria.hal.science/hal-04970114v0"
 }
 ```
+
 ``` json {.paper}
 {
   "title": "An Exact Algorithm for the Linear Tape Scheduling Problem",
   "authors": "Valentin Honoré, Bertrand Simon, Frédéric Suter",
   "venue": "The 32nd International Conference on Automated Planning and Scheduling (ICAPS 2022)",
   "year": "2022",
+  "url": "https://hal-cnrs.archives-ouvertes.fr/hal-03482022",
   "files": [
-    { "text": "HAL", "type": "link", "src": "https://hal-cnrs.archives-ouvertes.fr/hal-03482022" },
-    { "text": "arXiv", "type": "link", "src": "https://arxiv.org/abs/2112.09384" },
-    { "text": "PDF", "type": "pdf", "src": "https://hal-cnrs.archives-ouvertes.fr/hal-03482022/document" },
-    { "text": "ARTIFACT", "type": "code", "src": "https://figshare.com/s/80cee4b7497d004dbc70" },
+    { "text": "ARTIFACT", "type": "link", "src": "https://figshare.com/s/80cee4b7497d004dbc70" },
     { "text": "DATASET", "type": "link", "src": "https://figshare.com/s/a77d6b2687ab69416557" }
   ]
 }
 ```
-
 
 ``` json {.paper}
 {
@@ -102,10 +96,10 @@ A complete list of publications is available [here](publications.md).
   "authors": "Ana Gainaru, Brice Goglin, Valentin Honoré, Guillaume Pallez, Padma Raghavan, Yves Robert, Hongyang Sun",
   "venue": "2020 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2020)",
   "year": "2020",
+  "url": "https://hal.inria.fr/hal-02448393",
   "files": [
-    { "text": "HAL", "type": "link", "src": "https://hal.inria.fr/hal-02448393" },
-    { "text": "PDF", "type": "pdf", "src": "https://hal.inria.fr/hal-02448393/document" },
-    { "text": "ARTIFACT", "type": "code", "src": "https://gitlab.inria.fr/vhonore/ckpt-for-stochastic-scheduling" }
+    { "text": "PDF", "type": "link", "src": "https://hal.inria.fr/hal-02448393/document" },
+    { "text": "ARTIFACT", "type": "link", "src": "https://gitlab.inria.fr/vhonore/ckpt-for-stochastic-scheduling" }
   ]
 }
 ```
@@ -118,24 +112,11 @@ A complete list of publications is available [here](publications.md).
   "authors": "Ana Gainaru, Brice Goglin, Valentin Honoré, Guillaume Pallez (Aupy)",
   "venue": "IEEE Transactions on Parallel and Distributed Systems",
   "year": "2020",
+  "url": "https://hal.inria.fr/hal-03010676v1/",
   "files": [
-    { "text": "HAL", "type": "link", "src": "https://hal.inria.fr/hal-03010676v1/" },
-    { "text": "PDF", "type": "pdf", "src": "https://hal.inria.fr/hal-03010676/document" },
-    { "text": "ARTIFACT", "type": "code", "src": "https://gitlab.inria.fr/vhonore/stochastic_app_profiling" }
+    { "text": "PDF", "type": "link", "src": "https://hal.inria.fr/hal-03010676/document" },
+    { "text": "ARTIFACT", "type": "link", "src": "https://gitlab.inria.fr/vhonore/stochastic_app_profiling" }
   ]
-}
-```
-
-## Preprint
-
-``` json {.paper}
-{
-  "title": "An Exact Algorithm for the Linear Tape Scheduling Problem",
-  "authors": "Valentin Honoré and Bertrand Simon and Frédéric Suter",
-  "year": "2022",
-  "files": [
-      { "text": "Arxiv", "type": "link", "src": https://arxiv.org/abs/2112.09384" }
-    ]
 }
 ```
 
