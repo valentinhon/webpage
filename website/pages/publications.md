@@ -101,12 +101,10 @@
 ## Research Reports and Preprints
 
 ``` json {.paper}
-{
   "title": "An Exact Algorithm for the Linear Tape Scheduling Problem",
   "authors": "Valentin Honoré and Bertrand Simon and Frédéric Suter",
   "year": "2022",
   "url": "https://arxiv.org/abs/2112.09384"
-}
 ```
 
 ``` json {.paper}
