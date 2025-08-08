@@ -27,7 +27,7 @@ footer: >-
 Since September 2022, I am an Associate Professor at the [École Nationale Supérieure d'Informatique pour l'Industrie et l'Entreprise (ensIIE)](https://www.ensiie.fr/) in Evry (France), a city in the south-east suburb of Paris. I am in charge of the HPC track (so called CIDM) at ensIIE. I am also the coordinator of the first semester of the engineering program.
 I teach in various courses of the 1st year, and I am giving an advanced course in 3rd year on scheduling and performance analysis (see [Teaching](teaching.html) page for more details).
 
-I am a member of the [SAMOVAR](https://samovar.telecom-sudparis.eu/?lang=fr) laboratory, doing my research in the wonderdul [Benagil](https://team.inria.fr/benagil/) joined team between SAMOVAR and Inria Saclay.
+I am a member of the [SAMOVAR](https://samovar.telecom-sudparis.eu/?lang=fr) laboratory of Télécom SudParis, doing my research in the wonderdul [Benagil](https://team.inria.fr/benagil/) joined team between SAMOVAR and Inria Saclay.
 
 From Nov. 2020 to June 2022, I was a post-doc at the CC-IN2P3 in Villeurbanne, working in the [CCLab](https://cclab.pages.in2p3.fr/web/) group under the direction of [Frédéric Suter](https://www.ornl.gov/staff-profile/frederic-suter) (now Senior Scientist at Oak Ridge National laboratory).
 
@@ -43,7 +43,7 @@ I was funded by the University of Bordeaux (French Ministry of Research grant), 
 
 # Education
 
-- Sept 2022 - Current: Associate Professor in ENSIIE, Evry, France
+- Sept 2022 - Current: Associate Professor at ensIIE, Evry, France
 
 - Nov 2020 - June 2022: Post-doctoral fellow, CC-IN2P3 (CNRS), Villeurbanne, France
 - July 2018 - Sept 2018: Visiting Scholar, Vanderbilt University, Nashville, USA
@@ -56,8 +56,7 @@ I was funded by the University of Bordeaux (French Ministry of Research grant), 
 
 # Research
 
-I am interested in various scheduling and resource partitioning problems related to high performance computing (HPC) and large-scale storage systems.
-
+I am interested in various scheduling and resource partitioning problems related in the domain of distributed computing and high performance computing (HPC).
 I am interested in optimizing the execution of applications, and understand the problems application users face when running their code on large-scale platforms.
 
 During my PhD, I mixed theoretical studies and experimentation to design models and approximation algorithms in order to propose cost-efficient scheduling strategies for various types of applications.
@@ -67,8 +66,14 @@ Since 2023, I am working on performance analysis for large-scale applications in
 In addition, I also work on large-scale storage, in particular on how to efficiently use magnetic tape storage.
 Do not hesitate to contact me if you want to collaborate or discuss on these topics!!
 
-**NEWS** The VHS project has been funded by the [ANR JCJC program](https://anr.fr/fileadmin/aap/2025/selection/aapg-2025-selection.pdf)!
-See the dedicated webpage of the project!
+<span style="font-size:22px">
+!!! NEWS !!!
+</span>
+<span style="padding:10px;background-color:#f0f0f0">
+The VHS project has been funded by the [ANR JCJC program](https://anr.fr/fileadmin/aap/2025/selection/aapg-2025-selection.pdf)!
+See the dedicated webpage of the project [here](vhs.html)!
+</span>
+
 
 
 
@@ -132,11 +137,11 @@ A complete list of publications is available [here](publications.html).
 # Teaching duties and responsibilities
 
 I am teaching various courses at ensIIE. I am giving tutorials and practical sessions of almost all computer science modules of the first semester.
-I am also giving an adavanced course in the fifth semester about performance of distributed systems, introducing scheduling and performance analysis of distributed applications.
+I am also giving an advanced course in the fifth semester about performance of distributed systems, introducing theory and applied scheduling in distributed computing, in addition to performance analysis of distributed applications.
 
-For more details, please refer to the details [teaching](teaching.html) page.
+For more details, please refer to the [teaching](teaching.html) page.
 
-I am the head of the CIDM track, in partnership with the CEA. This track offers an advanced and complete program about HPC, BigData and Quantum computing.
+Since Sept. 2024, I am the head of the CIDM track, organized in partnership with the CEA. This track offers an advanced and complete program about HPC, BigData and Quantum computing.
 A full program description is available [here](https://www.ensiie.fr/formation).
 
 From Sept. 2025, I will hold the Teaching Chair "Technologies avancées et émergentes pour la Souveraineté numérique" between ensIIE and CEA.
