@@ -15,8 +15,8 @@ og-picture: https://basicpage.github.io/img/profile.png
 orcid: 0000-0003-1028-5719
 dblp: https://dblp.org/pid/248/5108.html
 scholar: https://scholar.google.com/citations?user=AwYK-44AAAAJ&hl=fr
-github: https://github.com/valentinhon/
-gitlab: https://gitlab.inria.fr/vhonore
+github: valentinhon
+gitlab: vhonore
 linkedin: https://www.linkedin.com/in/valentin-honore-334693100/
 footer: >-
   Based on the
