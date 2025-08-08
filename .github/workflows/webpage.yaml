@@ -75,7 +75,10 @@ jobs:
           echo "=== Content check ==="
           if [ -f "website/index.html" ]; then
             echo "✓ index.html exists"
-            head -5 website/index.html
+            echo "=== First 20 lines of index.html ==="
+            head -20 website/index.html
+            echo "=== Last 10 lines of index.html ==="
+            tail -10 website/index.html
           else
             echo "❌ index.html missing!"
           fi
