@@ -25,7 +25,7 @@ footer: >-
 ---
 
 Since September 2022, I am an Associate Professor at the [École Nationale Supérieure d'Informatique pour l'Industrie et l'Entreprise (ensIIE)](https://www.ensiie.fr/) in Evry (France), a city in the south-east suburb of Paris. I am in charge of the HPC track (so called CIDM) at ensIIE. I am also the coordinator of the first semester of the engineering program.
-I teach in various courses of the 1st year, and I am giving an advanced course in 3rd year on scheduling and performance analysis (see [Teaching](../website/pages/teaching.md) page for more details).
+I teach in various courses of the 1st year, and I am giving an advanced course in 3rd year on scheduling and performance analysis (see [Teaching](../website/pages/teaching.html) page for more details).
 
 I am a member of the [SAMOVAR](https://samovar.telecom-sudparis.eu/?lang=fr) laboratory, doing my research in the wonderdul [Benagil](https://team.inria.fr/benagil/) joined team between SAMOVAR and Inria Saclay.
 
@@ -62,7 +62,7 @@ I was funded by the University of Bordeaux (French Ministry of Research grant), 
 
 You can find here a selection of my publications.
 
-A complete list of publications is available [here](../website/pages/publications.md).
+A complete list of publications is available [here](../website/pages/publications.html).
 
 ## Conference papers
 
@@ -120,7 +120,7 @@ A complete list of publications is available [here](../website/pages/publication
 I am teaching various courses at ensIIE. I am giving tutorials and practical sessions of almost all computer science modules of the first semester.
 I am also giving an adavanced course in the fifth semester about performance of distributed systems, introducing scheduling and performance analysis of distributed applications.
 
-For more details, please refer to the details [teaching](../website/pages/teaching.md) page.
+For more details, please refer to the details [teaching](../website/pages/teaching.html) page.
 
 I am the head of the CIDM track, in partnership with the CEA. This track offers an advanced and complete program about HPC, BigData and Quantum computing.
 A full program description is available [here](https://www.ensiie.fr/formation).
