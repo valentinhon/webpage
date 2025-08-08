@@ -42,6 +42,31 @@ jobs:
             --lua-filter=pandoc/date.lua
             src/index.md
 
+      - name: Build additional pages
+        run: |
+
+          # Compiler tous les fichiers markdown du dossier website/pages
+          for file in website/pages/*.md; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .md)
+              docker run --rm \
+                -v "$PWD:/data" \
+                -u $(id -u):$(id -g) \
+                pandoc/core:3.2 \
+                --standalone \
+                --from commonmark_x+alerts \
+                --output="/data/website/${filename}.html" \
+                --template=/data/pandoc/template.html4 \
+                --css=style.css \
+                --toc \
+                --toc-depth=2 \
+                --resource-path=/data \
+                --lua-filter=/data/pandoc/paper.lua \
+                --lua-filter=/data/pandoc/date.lua \
+                "/data/$file"
+            fi
+          done
+
       - name: Setup Pages
         if: github.ref_name == github.event.repository.default_branch
         uses: actions/configure-pages@v3
