@@ -113,7 +113,7 @@
         </a>
         $endif$
         $if(gitlab)$
-        <a href="https://gitlab.com/$gitlab$" title="Gitlab">
+        <a href="https://gitlab.inria.fr/$gitlab$" title="Gitlab">
           <i class="fa-brands fa-gitlab fa-fw"></i>
         </a>
         $endif$
