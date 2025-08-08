@@ -1,6 +1,33 @@
+---
+title: Professionnal Webpage
+author: Valentin Honoré
+shortbio: Associate Professor (Maître de Conférences) at ensIIE
+description-meta: Associate Professor (Maître de Conférences) at ensIIE
+og-url: https://webpage.github.io
+location: Evry - ensIIE (Office 242) & Télécom SudParis/Samovar (Office C404)
+email: valentin.honore@ensiie.fr
+phone: 01.69.36.73.35
+picture: img/profile.png
+picture-round: false
+side-by-side: true
+pronouns: He/him
+og-picture: https://basicpage.github.io/img/profile.png
+orcid: 0000-0003-1028-5719
+dblp: https://dblp.org/pid/248/5108.html
+scholar: https://scholar.google.com/citations?user=AwYK-44AAAAJ&hl=fr
+github: https://github.com/valentinhon/
+gitlab: https://gitlab.inria.fr/vhonore
+linkedin: https://www.linkedin.com/in/valentin-honore-334693100/
+footer: >-
+  Based on the
+  [basicpage template](https://github.com/basicpage/basicpage.github.io),
+  made to be easy to use! 🎓
+---
+
+
 # Publications
 
-**(except the one with *, authors are listed in alphabetical order)**
+**(Except the one with *, authors are listed in alphabetical order)**
 
 
 ## Conference papers

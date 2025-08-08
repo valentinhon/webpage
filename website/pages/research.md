@@ -1,12 +1,37 @@
-# Researc activities
+---
+title: Professionnal Webpage
+author: Valentin Honoré
+shortbio: Associate Professor (Maître de Conférences) at ensIIE
+description-meta: Associate Professor (Maître de Conférences) at ensIIE
+og-url: https://webpage.github.io
+location: Evry - ensIIE (Office 242) & Télécom SudParis/Samovar (Office C404)
+email: valentin.honore@ensiie.fr
+phone: 01.69.36.73.35
+picture: img/profile.png
+picture-round: false
+side-by-side: true
+pronouns: He/him
+og-picture: https://basicpage.github.io/img/profile.png
+orcid: 0000-0003-1028-5719
+dblp: https://dblp.org/pid/248/5108.html
+scholar: https://scholar.google.com/citations?user=AwYK-44AAAAJ&hl=fr
+github: https://github.com/valentinhon/
+gitlab: https://gitlab.inria.fr/vhonore
+linkedin: https://www.linkedin.com/in/valentin-honore-334693100/
+footer: >-
+  Based on the
+  [basicpage template](https://github.com/basicpage/basicpage.github.io),
+  made to be easy to use! 🎓
+---
 
 
-## PhD Students
+# PhD Students Supervision
 
 - **[Catherine GUELQUE](https://wiki.khatharsis.com/)**, with [François TRAHAY](https://trahay.wp.imtbs-tsp.eu/) (Nov. 23 - Oct. 26): [HPC trace analysis at scale](https://theses.fr/s374880?domaine=theses)
 
 
-## Research interests
+
+# Research Interests
 
 I am interested in various scheduling and resource partitioning problems related to high performance computing (HPC) and large-scale storage systems.
 
@@ -22,22 +47,22 @@ Do not hesitate to contact me if you want to collaborate or discuss on these top
 See the dedicated webpage of the project!
 
 
+## Post-doc (IN2P3, CNRS)
 
-### Post-doc (IN2P3, CNRS)
-
-#### Trustful simulation of high-performance workflows
+### Trustful Simulation of High-performance Workflows
 
 I extended my PhD work on performance evaluation of *in situ* processing, where simulation and analytics are co-scheduled on the same computing resources. Determining the best allocation, i.e, how many resources to allocate to each component of an *in situ* workflow; and mapping, i.e, where and at which frequency to run the data analytics component, is a complex task for which I proposed performance models during my PhD. However, performance assessment of such solutions is crucial to the efficient execution of *in situ* workflows.
 
 In this project, I developed [SimSitu](https://figshare.com/articles/online_resource/Reproducibility_Artifact_for_the_paper_SIM-SITU_A_Framework_for_the_Faithful_Simulation_of_in_situ_Processing_/20416008?file=36503601), a faithful simulation framework based on the [SimGrid](https://simgrid.org/) toolkit. SimGrid is capable of accurately simulating distributed applications running on parallel machines. This work was done in collaboration with Oak Ridge National Laboratory (USA) and the University of Southern California (USA). A resulting publication was selected for publication in [e-Science'22](https://cnrs.hal.science/hal-03504863v2).
 
-#### Scheduling user requests on magnetic tapes
+### Scheduling User Requests on Magnetic Tapes
 
 The second research direction of my postdoc concerns the scheduling of user requests on magnetic tapes. Magnetic tape is a high-capacity storage technology that is still widely used in computing and data centers to store cold data. When accessing data on tapes, deciding the ordering of the user requests on a tape is crucial to improve the quality of service experienced by users of tape storage systems. In this work, we proposed an exact algorithm for the open problem of minimizing the average service time for read requests on a magnetic tape considered as linear. A resulting paper was accepted for publication in [ICAPS'22](https://cnrs.hal.science/hal-03482022).
 
 In addition, we also publicly released a [dataset](https://figshare.com/s/a77d6b2687ab69416557) of tape descriptions and associated user requests extracted from execution logs from the IN2P3 computing center.
 
-### PhD (Inria, TADaaM team)
+
+## PhD (Inria, TADaaM team)
 
 My PhD focused on resource partitioning, design of scheduling strategies as so as data movement in HPC applications.
 
