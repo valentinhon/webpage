@@ -66,12 +66,12 @@ Since 2023, I am working on performance analysis for large-scale applications in
 In addition, I also work on large-scale storage, in particular on how to efficiently use magnetic tape storage.
 Do not hesitate to contact me if you want to collaborate or discuss on these topics!!
 
-<span style="font-size:22px">
+<span style="font-size:22px;padding:10px;background-color:#f0f0f0">
 !!! NEWS !!!
 </span>
 <span style="padding:10px;background-color:#f0f0f0">
-The VHS project has been funded by the [ANR JCJC program](https://anr.fr/fileadmin/aap/2025/selection/aapg-2025-selection.pdf)!
-See the dedicated webpage of the project [here](vhs.html)!
+The VHS project has been funded by the <a href="https://anr.fr/fileadmin/aap/2025/selection/aapg-2025-selection.pdf">ANR JCJC program</a> for the AAPG 2025 project call.
+See the dedicated webpage of the project <a href="vhs.html">here</a>.
 </span>
 
 
