@@ -4,7 +4,7 @@ author: Valentin Honoré
 shortbio: Associate Professor (Maître de Conférences) at ensIIE
 description-meta: Associate Professor (Maître de Conférences) at ensIIE
 og-url: https://webpage.github.io
-location: Evry: ensIIE (Office 242) & Télécom SudParis/Samovar (Office C404)
+location: Evry - ensIIE (Office 242) & Télécom SudParis/Samovar (Office C404)
 email: valentin.honore@ensiie.fr
 phone: 01.69.36.73.35
 picture: img/profile.png
