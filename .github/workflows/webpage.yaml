@@ -44,7 +44,6 @@ jobs:
 
       - name: Build additional pages
         run: |
-
           # Compiler tous les fichiers markdown du dossier website/pages
           for file in website/pages/*.md; do
             if [ -f "$file" ]; then
@@ -55,15 +54,15 @@ jobs:
                 pandoc/core:3.2 \
                 --standalone \
                 --from commonmark_x+alerts \
-                --output="/data/website/${filename}.html" \
-                --template=/data/pandoc/template.html4 \
+                --output="website/${filename}.html" \
+                --template=pandoc/template.html4 \
                 --css=style.css \
                 --toc \
                 --toc-depth=2 \
-                --resource-path=/data \
+                --resource-path=. \
                 --lua-filter=/data/pandoc/paper.lua \
                 --lua-filter=/data/pandoc/date.lua \
-                "/data/$file"
+                "website/pages/$file"
             fi
           done
 
@@ -89,3 +88,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+
+
