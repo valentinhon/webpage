@@ -62,7 +62,7 @@ jobs:
                 --resource-path=. \
                 --lua-filter=/data/pandoc/paper.lua \
                 --lua-filter=/data/pandoc/date.lua \
-                "website/pages/$file"
+                "$file"
             fi
           done
 
