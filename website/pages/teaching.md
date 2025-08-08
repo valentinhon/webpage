@@ -41,7 +41,6 @@ From Sept. 2025, I will hold the Teaching Chair "Technologies avancées et émer
 Here is a complete table of my teaching up to 24/25.
 
 
-```html
 <table border="1" >
     <caption>Teaching at <a href="https://www.ensiie.fr/">ensIIE</a> since September 2022</caption>
     <tr ALIGN="CENTER">
@@ -110,8 +109,6 @@ Here is a complete table of my teaching up to 24/25.
         <td>Lecture & Tutorials</td>
         <td>Course leader</td>
     </tr>
-
-
 
    <tr ALIGN="CENTER">
         <td rowspan="6">2023-2024</td>
@@ -202,15 +199,12 @@ Here is a complete table of my teaching up to 24/25.
     </tr>
 
 </table>
-```
 
 
 # Teaching at [ENSEIRB-MATMECA](https://enseirb-matmeca.bordeaux-inp.fr/fr/) from 2017 to 2020
 
 During my PhD from 2027 to 2020, I have taught 64 hours per year as a teaching assistant in the computer science department of the [ENSEIRB-MATMECA](https://enseirb-matmeca.bordeaux-inp.fr/fr) engineering school, member of Bordeaux INP. The school proposes six main engineering programs in three years. The following table summarizes my teaching duties in the computer science program during those three years.
 
-
-```html
 <table  border="1" >
         <tr ALIGN="CENTER">
             <th>Status</th>
@@ -290,5 +284,4 @@ During my PhD from 2027 to 2020, I have taught 64 hours per year as a teaching a
             <td>Final exam & Practical sessions</td>
         </tr>
     </table>
-```
 
