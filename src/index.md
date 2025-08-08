@@ -56,6 +56,20 @@ I was funded by the University of Bordeaux (French Ministry of Research grant), 
 
 # Research
 
+I am interested in various scheduling and resource partitioning problems related to high performance computing (HPC) and large-scale storage systems.
+
+I am interested in optimizing the execution of applications, and understand the problems application users face when running their code on large-scale platforms.
+
+During my PhD, I mixed theoretical studies and experimentation to design models and approximation algorithms in order to propose cost-efficient scheduling strategies for various types of applications.
+
+Since 2023, I am working on performance analysis for large-scale applications in the PEPR [NumPEx](https://numpex.org/fr/) project.
+
+In addition, I also work on large-scale storage, in particular on how to efficiently use magnetic tape storage.
+Do not hesitate to contact me if you want to collaborate or discuss on these topics!!
+
+**NEWS** The VHS project has been funded by the [ANR JCJC program](https://anr.fr/fileadmin/aap/2025/selection/aapg-2025-selection.pdf)!
+See the dedicated webpage of the project!
+
 
 
 # Publications
