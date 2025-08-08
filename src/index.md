@@ -155,7 +155,7 @@ From Sept. 2025, I will hold the Teaching Chair "Technologies avancées et émer
 ## Program Committee
 
   - 2025:
-    - ESA (part of [ALGO'25](https://algo-conference.org/2025/): Track B
+    - [ESA](https://algo-conference.org/2025/esa/), part of [ALGO'25](https://algo-conference.org/2025/): Track B
     - [Cluster](https://clustercomp.org/2025/committees): Poster committee
   - 2024:
     - [Compas](https://2024.compas-conference.fr/comites)
