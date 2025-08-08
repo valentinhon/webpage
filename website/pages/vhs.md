@@ -25,9 +25,6 @@ footer: >-
 ---
 
 
-
-# Webpage for the VHS project
-
 The VHS project has been selected in the framework of the AAPG 2025 Call for Projects from ANR, with a JCJC funding.
 
 The project will start in March 2026, and will last until September 2029!
