@@ -1,180 +1,180 @@
 ---
-title: Template homepage
-author: Templato Urnehm
-shortbio: PhD student in 👽 science
-description-meta: PhD student in 👽 science
-og-url: https://basicpage.github.io
-location: Some lab, office 777
-email: noreply@noemail.com
+title: Professionnal Webpage
+author: Valentin Honoré
+shortbio: Associate Professor (Maître de Conférences) at ensIIE
+description-meta: Associate Professor (Maître de Conférences) at ensIIE
+og-url: https://webpage.github.io
+location: Evry: ensIIE (Office 242) & Télécom SudParis/Samovar (Office C404)
+email: valentin.honore@ensiie.fr
+phone: 01.69.36.73.35
 picture: img/profile.png
 picture-round: false
 side-by-side: true
-pronouns: They/Them
+pronouns: He/him
 og-picture: https://basicpage.github.io/img/profile.png
-orcid: 0000-0000-0000-0000
-dblp: https://dblp.org/
-scholar: https://scholar.google.com/
-hal: https://hal.science/
-mastodon: https://lipn.info
-github: basicpage
-gitlab: gitlab
-bitbucket: bitbucket.com
-bluesky: https://bsky.app/
-linkedin: https://www.linkedin.com
+orcid: 0000-0003-1028-5719
+dblp: https://dblp.org/pid/248/5108.html
+scholar: https://scholar.google.com/citations?user=AwYK-44AAAAJ&hl=fr
+github: https://github.com/valentinhon/
+gitlab: https://gitlab.inria.fr/vhonore
+linkedin: https://www.linkedin.com/in/valentin-honore-334693100/
 footer: >-
   Based on the
   [basicpage template](https://github.com/basicpage/basicpage.github.io),
   made to be easy to use! 🎓
 ---
 
-I am a (fake) PhD student, working on 👽 science on all kinds of related topics.
+Since September 2022, I am an Associate Professor at the [École Nationale Supérieure d'Informatique pour l'Industrie et l'Entreprise (ensIIE)](https://www.ensiie.fr/) in Evry (France), a city in the south-east suburb of Paris. I am in charge of the HPC track (so called CIDM) at ensIIE. I am also the coordinator of the first semester of the engineering program.
+I teach in various courses of the 1st year, and I am giving an advanced course in 3rd year on scheduling and performance analysis (see [Teaching](teaching.md) page for more details).
 
-My workflow is usually to use <kbd>Ctrl</kbd> + <kbd>C</kbd> /
-<kbd>Ctrl</kbd> + <kbd>V</kbd>. 🫣
+I am a member of the [SAMOVAR](https://samovar.telecom-sudparis.eu/?lang=fr) laboratory, doing my research in the wonderdul [Benagil](https://team.inria.fr/benagil/) joined team between SAMOVAR and Inria Saclay.
 
-> [!NOTE]
-> This website is obviously a fake one, but it's meant to be very easy to use.
-> Just follow the README of the
-> [Github repository](https://github.com/basicpage/basicpage.github.io).
+From Nov. 2020 to June 2022, I was a post-doc at the CC-IN2P3 in Villeurbanne, working in the [CCLab](https://cclab.pages.in2p3.fr/web/) group under the direction of [Frédéric Suter](https://www.ornl.gov/staff-profile/frederic-suter) (now Senior Scientist at Oak Ridge National laboratory).
+
+From Nov. 2017 to Oct. 2020, I was a PhD student under the guidance of the great [Brice Goglin](http://people.bordeaux.inria.fr/goglin/)
+and [Guillaume Pallez (Aupy)](http://people.bordeaux.inria.fr/gaupy/#About).
+I was part of the  [TADaam](https://team.inria.fr/tadaam/) team in the [Inria Bordeaux - Sud-Ouest Research Center](https://www.inria.fr/centre/bordeaux).
+
+I successfully defended my PhD on October 15th, 2020 in Amphitheater A of Building A29 in University of Bordeaux.
+The manuscript is freely accessible [here](https://tel.archives-ouvertes.fr/tel-03003808), and the slides [here](documents/presentation_thèse.pdf).
+I was funded by the University of Bordeaux (French Ministry of Research grant), and affiliated to the [LaBRI](http://www.labri.fr/).
+
+
+
+# Education
+
+- Sept 2022 - Current: Associate Professor in ENSIIE, Evry, France
+
+- Nov 2020 - June 2022: Post-doctoral fellow, CC-IN2P3 (CNRS), Villeurbanne, France
+- July 2018 - Sept 2018: Visiting Scholar, Vanderbilt University, Nashville, USA
+- Nov 2017 - Oct 2020: PhD, University Bordeaux, France
+
+- Oct 2015 - Jul 2016: Visiting Scholar, JAIST, Nomi-shi, Japan
+- Sept 2014 - Jun 2017: Bachelor & Master of Science, École Normale Supérieure de Lyon
+- Sept 2011 - June 2014: Bachelor of Science, Université Montpellier 2
+
+
+# Research
+
+
 
 # Publications
+
+You can find here a selection of my publications.
+
+A complete list of publications is available [here](publications.md).
 
 ## Conference papers
 
 ``` json {.paper}
-"title": "Towards automatic academic pages 2",
-"authors": "Templato Urnehm, U. N. Owen, Wan Morotter",
-"venue": "Principles of Awesomeness (PAW)",
-"year": "2024",
-"url": "https://basicpage.github.io"
+{
+  "title": "Pallas: a generic trace format for large HPC trace analysis",
+  "authors": "Catherine Guelque, Valentin Honoré, Philippe Swartvagher, Gaël Thomas, François Trahay",
+  "venue": "2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2025)",
+  "year": "2025",
+  "files": [
+    { "text": "HAL", "type": "link", "src": "https://inria.hal.science/hal-04970114v0" },
+    { "text": "PDF", "type": "pdf", "src": "https://inria.hal.science/hal-04970114v0/document" },
+    { "text": "ARTIFACT", "type": "code", "src": "https://gitlab.inria.fr/pallas/IPDPS2025_Reproducibility" }
+  ]
+}
+```
+``` json {.paper}
+{
+  "title": "An Exact Algorithm for the Linear Tape Scheduling Problem",
+  "authors": "Valentin Honoré, Bertrand Simon, Frédéric Suter",
+  "venue": "The 32nd International Conference on Automated Planning and Scheduling (ICAPS 2022)",
+  "year": "2022",
+  "files": [
+    { "text": "HAL", "type": "link", "src": "https://hal-cnrs.archives-ouvertes.fr/hal-03482022" },
+    { "text": "arXiv", "type": "link", "src": "https://arxiv.org/abs/2112.09384" },
+    { "text": "PDF", "type": "pdf", "src": "https://hal-cnrs.archives-ouvertes.fr/hal-03482022/document" },
+    { "text": "ARTIFACT", "type": "code", "src": "https://figshare.com/s/80cee4b7497d004dbc70" },
+    { "text": "DATASET", "type": "link", "src": "https://figshare.com/s/a77d6b2687ab69416557" }
+  ]
+}
 ```
 
+
 ``` json {.paper}
-"title": "Towards automatic academic pages",
-"authors": "Templato Urnehm, U. N. Owen",
-"awards": "Automatic Award",
-"venue": "Principles of Awesomeness (PAW)",
-"year": "2023",
-"url": "https://basicpage.github.io",
-"files": [
-  { "text": "Paper", "type": "pdf", "src": "foo.pdf" },
-  { "text": "Bibtex", "type": "bib", "src": "foo.bib" },
-  { "text": "Formalisation", "type": "code", "src": "foo.v" }
-]
+{
+  "title": "Reservation and Checkpointing Strategies for Stochastic Jobs",
+  "authors": "Ana Gainaru, Brice Goglin, Valentin Honoré, Guillaume Pallez, Padma Raghavan, Yves Robert, Hongyang Sun",
+  "venue": "2020 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2020)",
+  "year": "2020",
+  "files": [
+    { "text": "HAL", "type": "link", "src": "https://hal.inria.fr/hal-02448393" },
+    { "text": "PDF", "type": "pdf", "src": "https://hal.inria.fr/hal-02448393/document" },
+    { "text": "ARTIFACT", "type": "code", "src": "https://gitlab.inria.fr/vhonore/ckpt-for-stochastic-scheduling" }
+  ]
+}
 ```
 
 ## Journal papers
 
-``` yaml {.paper}
-title: Yet another yaml parser 3
-authors: Templato Urnehm
-awards: 
-  - Yet another "Yet another" award
-  - Never-ending Work Award
-venue: Proceedings of Nihilism
-year: 2029
-url: https://basicpage.github.io
-files:
-  - text: Paper
-    type: pdf
-    scr: foo.pdf
-  - text: Bibtex
-    type: bib
-    src: foo.bib
-```
-
-``` yaml {.papers}
-papers:
-  - title: Yet another yaml parser 2
-    authors: Templato Urnehm
-    venue: Proceedings of Nihilism
-    year: 2027
-    files:
-      - text: Paper
-        type: pdf
-        scr: foo.pdf
-      - text: Bibtex
-        type: bib
-        src: foo.bib
-  - title: Yet another yaml parser
-    authors: Templato Urnehm
-    awards: Yet another "Yet another" award
-    venue: Proceedings of Nihilism
-    year: 2025
-    files:
-      - text: Paper
-        type: pdf
-        scr: foo.pdf
-      - text: Bibtex
-        type: bib
-        src: foo.bib
-      - text: Some link
-        type: link
-        src: fake.link.xyz
-      - text: Repo
-        type: git
-        src: github.com
-```
-
 ``` json {.paper}
-"title": "How to tame your wagon",
-"authors": "Templato Urnehm",
-"venue": "Journal of Automatic Rejection (JAR)",
-"year": "2022"
-```
-
-## Drafts
-
-``` json {.paper}
-"title": "TBD",
-"authors": "TBD",
-"awards": [
-  "Best Draft Award",
-  "Test-of-time Award for works which just never leave the draft stage"
-],
-"files": [
-  { "text": "🐱 video", "type": "video", "src": "foo.mov" },
-  { "text": "Poem", "type": "txt", "src": "foo.txt" },
-  { "text": "My picture", "type": "img", "src": "img/profile.png" },
-  { "text": "💣", "type": "zip", "src": "foo.zip" },
-  { "text": "Slides", "type": "slides", "src": "foo.key" },
-  { "text": "Some random file", "src": "foo.rand" }
-]
-```
-
-## Talks
-
-``` json {.papers}
 {
-  "title": "Talk 1",
-  "authors": "Templato Urnehm",
-  "venue": "My room"
-},
-{
-  "title": "Secret talk",
-  "authors": "Templato Urnehm",
-  "year": "1990"
-},
-{
-  "title": "Talk 3",
-  "authors": "Templato Urnehm",
-  "venue": "Don't remember…",
-  "year": "???"
+  "title": "Profiles of upcoming HPC Applications and their Impact on Reservation Strategies",
+  "authors": "Ana Gainaru, Brice Goglin, Valentin Honoré, Guillaume Pallez (Aupy)",
+  "venue": "IEEE Transactions on Parallel and Distributed Systems",
+  "year": "2020",
+  "files": [
+    { "text": "HAL", "type": "link", "src": "https://hal.inria.fr/hal-03010676v1/" },
+    { "text": "PDF", "type": "pdf", "src": "https://hal.inria.fr/hal-03010676/document" },
+    { "text": "ARTIFACT", "type": "code", "src": "https://gitlab.inria.fr/vhonore/stochastic_app_profiling" }
+  ]
 }
 ```
 
-# Education
+## Preprint
 
-- I was able to paint with my hands in kindergarten.
-- I went to high school where I studied stuff.
-- Master degree in hand painting.
+``` json {.paper}
+{
+  "title": "An Exact Algorithm for the Linear Tape Scheduling Problem",
+  "authors": "Valentin Honoré and Bertrand Simon and Frédéric Suter",
+  "year": "2022",
+  "files": [
+      { "text": "Arxiv", "type": "link", "src": https://arxiv.org/abs/2112.09384" }
+    ]
+}
+```
 
-# Teaching
 
-- I am teaching the TD sessions on the 👽 science course.
+
+# Teaching duties and responsibilities
+
+I am teaching various courses at ensIIE. I am giving tutorials and practical sessions of almost all computer science modules of the first semester.
+I am also giving an adavanced course in the fifth semester about performance of distributed systems, introducing scheduling and performance analysis of distributed applications.
+
+For more details, please refer to the details [teaching][teaching.md] page.
+
+I am the head of the CIDM track, in partnership with the CEA. This track offers an advanced and complete program about HPC, BigData and Quantum computing.
+A full program description is available [here](https://www.ensiie.fr/formation).
+
+From Sept. 2025, I will hold the Teaching Chair "Technologies avancées et émergentes pour la Souveraineté numérique" between ensIIE and CEA.
+
+
 
 # Community service
 
-- 32 reviews for Journal of Awesomeness.
-- 1 review for a cool conference.
-- PC member of the journal of my school.
+## Program Committee
+
+  - 2025:
+    - ESA (part of [ALGO'25](https://algo-conference.org/2025/): Track B
+    - [Cluster](https://clustercomp.org/2025/committees): Poster committee
+  - 2024:
+    - [Compas](https://2024.compas-conference.fr/comites)
+     - [Cluster](https://clustercomp.org/2024/committees/): System track by delegation, Poster Committee
+  - 2023:
+    - [SC](https://sc23.supercomputing.org/planning-committee/): ACM Undergraduate Posters
+  - 2022:
+    - [SC](https://sc22.supercomputing.org/planning-committee/"/): ACM Undergraduate Posters
+    - [HIPC](https://hipc.org/programcomittee/): Software Track
+    - [DRBSD-8](https://drbsd.github.io/) workshop: Program Committee
+  - 2021:
+    - [HIPC](https://hipc.org/hipc2021/): Software Track
+    - [ICPP](https://oaciss.uoregon.edu/icpp21/committees.php): Algorithm Track
+
+## Journal Committee
+
+  - 2020, 2023: Reviewer for [JPDC](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing)
