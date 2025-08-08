@@ -66,6 +66,8 @@ Since 2023, I am working on performance analysis for large-scale applications in
 In addition, I also work on large-scale storage, in particular on how to efficiently use magnetic tape storage.
 Do not hesitate to contact me if you want to collaborate or discuss on these topics!!
 
+More details can be found on the [research](research.html) page.
+
 <span style="font-size:22px;padding:10px;background-color:#f0f0f0">
 !!! NEWS !!!
 </span>
