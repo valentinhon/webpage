@@ -10,21 +10,36 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
-    env:
+    strategy:
       fail-fast: true
 
     steps:
-
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
+
+      - name: Debug - List files
+        run: |
+          echo "=== Files in root ==="
+          ls -la
+          echo "=== Files in src ==="
+          ls -la src/ || echo "src directory not found"
+          echo "=== Files in pandoc ==="
+          ls -la pandoc/ || echo "pandoc directory not found"
+
+      - name: Create website directory and disable Jekyll
+        run: |
+          mkdir -p website
+          touch website/.nojekyll
 
       - name: Build main homepage
         uses: docker://pandoc/core:3.2
@@ -44,31 +59,40 @@ jobs:
 
       - name: Build additional pages
         run: |
+          # Créer le dossier website s'il n'existe pas
+          mkdir -p website
+
           # Compiler tous les fichiers markdown du dossier website/pages
-          for file in website/pages/*.md; do
-            if [ -f "$file" ]; then
-              filename=$(basename "$file" .md)
-              docker run --rm \
-                -v "$PWD:/data" \
-                -u $(id -u):$(id -g) \
-                pandoc/core:3.2 \
-                --standalone \
-                --from commonmark_x+alerts \
-                --output="website/${filename}.html" \
-                --template=pandoc/template.html4 \
-                --css=style.css \
-                --toc \
-                --toc-depth=2 \
-                --resource-path=. \
-                --lua-filter=/data/pandoc/paper.lua \
-                --lua-filter=/data/pandoc/date.lua \
-                "$file"
-            fi
-          done
+          if [ -d "website/pages" ]; then
+            for file in website/pages/*.md; do
+              if [ -f "$file" ]; then
+                filename=$(basename "$file" .md)
+                echo "Processing: $file -> website/${filename}.html"
+                docker run --rm \
+                  -v "$PWD:/data" \
+                  -u $(id -u):$(id -g) \
+                  pandoc/core:3.2 \
+                  --standalone \
+                  --from commonmark_x+alerts \
+                  --output="/data/website/${filename}.html" \
+                  --template=/data/pandoc/template.html4 \
+                  --css=style.css \
+                  --toc \
+                  --toc-depth=2 \
+                  --resource-path=/data \
+                  --lua-filter=/data/pandoc/paper.lua \
+                  --lua-filter=/data/pandoc/date.lua \
+                  "/data/$file"
+              fi
+            done
+          else
+            echo "No website/pages directory found, skipping additional pages"
+          fi
 
       - name: Setup Pages
         if: github.ref_name == github.event.repository.default_branch
         uses: actions/configure-pages@v3
+
       - name: Upload artifact
         if: github.ref_name == github.event.repository.default_branch
         uses: actions/upload-pages-artifact@v3
@@ -88,6 +112,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-
-
