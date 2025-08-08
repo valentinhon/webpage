@@ -68,7 +68,7 @@ A complete list of publications is available [here](publications.md).
 
 ``` json {.paper}
 {
-  "title": "Pallas: a generic trace format for large HPC trace analysis",
+  "title": "Pallas, a generic trace format for large HPC trace analysis",
   "authors": "Catherine Guelque, Valentin Honoré, Philippe Swartvagher, Gaël Thomas, François Trahay",
   "venue": "2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2025)",
   "year": "2025",
