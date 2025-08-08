@@ -61,7 +61,7 @@ jobs:
                 --toc-depth=2 \
                 --resource-path=. \
                 --lua-filter=/data/pandoc/paper.lua \
-                --lua-filter=/data/pandoc/date.lua
+                --lua-filter=/data/pandoc/date.lua \
                 "$file"
             fi
           done
