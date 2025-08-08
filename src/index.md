@@ -67,17 +67,15 @@ A complete list of publications is available [here](publications.md).
 ## Conference papers
 
 ``` json {.paper}
-{
   "title": "Pallas, a generic trace format for large HPC trace analysis",
   "authors": "Catherine Guelque, Valentin Honoré, Philippe Swartvagher, Gaël Thomas, François Trahay",
   "venue": "2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2025)",
   "year": "2025",
   "url": "https://inria.hal.science/hal-04970114v0"
-}
+
 ```
 
 ``` json {.paper}
-{
   "title": "An Exact Algorithm for the Linear Tape Scheduling Problem",
   "authors": "Valentin Honoré, Bertrand Simon, Frédéric Suter",
   "venue": "The 32nd International Conference on Automated Planning and Scheduling (ICAPS 2022)",
@@ -87,11 +85,9 @@ A complete list of publications is available [here](publications.md).
     { "text": "ARTIFACT", "type": "link", "src": "https://figshare.com/s/80cee4b7497d004dbc70" },
     { "text": "DATASET", "type": "link", "src": "https://figshare.com/s/a77d6b2687ab69416557" }
   ]
-}
 ```
 
 ``` json {.paper}
-{
   "title": "Reservation and Checkpointing Strategies for Stochastic Jobs",
   "authors": "Ana Gainaru, Brice Goglin, Valentin Honoré, Guillaume Pallez, Padma Raghavan, Yves Robert, Hongyang Sun",
   "venue": "2020 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2020)",
@@ -101,13 +97,11 @@ A complete list of publications is available [here](publications.md).
     { "text": "PDF", "type": "link", "src": "https://hal.inria.fr/hal-02448393/document" },
     { "text": "ARTIFACT", "type": "link", "src": "https://gitlab.inria.fr/vhonore/ckpt-for-stochastic-scheduling" }
   ]
-}
 ```
 
 ## Journal papers
 
 ``` json {.paper}
-{
   "title": "Profiles of upcoming HPC Applications and their Impact on Reservation Strategies",
   "authors": "Ana Gainaru, Brice Goglin, Valentin Honoré, Guillaume Pallez (Aupy)",
   "venue": "IEEE Transactions on Parallel and Distributed Systems",
@@ -117,7 +111,6 @@ A complete list of publications is available [here](publications.md).
     { "text": "PDF", "type": "link", "src": "https://hal.inria.fr/hal-03010676/document" },
     { "text": "ARTIFACT", "type": "link", "src": "https://gitlab.inria.fr/vhonore/stochastic_app_profiling" }
   ]
-}
 ```
 
 
