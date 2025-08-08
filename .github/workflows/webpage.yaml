@@ -37,7 +37,7 @@ jobs:
             --from commonmark_x+alerts \
             --output="/data/website/index.html" \
             --template=/data/pandoc/template.html4 \
-            --css=style.css \
+            --css=/data/website/style.css \
             --toc \
             --toc-depth=1 \
             --resource-path=/data \
@@ -58,7 +58,7 @@ jobs:
                 --from commonmark_x+alerts \
                 --output="/data/website/${filename}.html" \
                 --template=/data/pandoc/template.html4 \
-                --css=style.css \
+                --css=/data/website/style.css \
                 --toc \
                 --toc-depth=2 \
                 --resource-path=/data \
