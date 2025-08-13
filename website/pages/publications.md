@@ -24,7 +24,6 @@ footer: >-
   made to be easy to use! 🎓
 ---
 
-
 # Publications
 
 **(Except the one with *, authors are listed in alphabetical order)**
@@ -37,7 +36,11 @@ footer: >-
   "authors": "Catherine Guelque, Valentin Honoré, Philippe Swartvagher, Gaël Thomas, François Trahay",
   "venue": "2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2025)",
   "year": "2025",
-  "url": "https://inria.hal.science/hal-04970114v0"
+  "url": "https://inria.hal.science/hal-04970114v0",
+  "files": [
+    { "text": "PDF", "type": "link", "src": "https://inria.hal.science/hal-04970114v0/document" },
+    { "text": "ARTIFACT", "type": "link", "src": "https://gitlab.inria.fr/pallas/IPDPS2025_Reproducibility" }
+  ]
 ```
 
 ``` json {.paper}
@@ -59,6 +62,7 @@ footer: >-
   "year": "2022",
   "url": "https://hal-cnrs.archives-ouvertes.fr/hal-03482022",
   "files": [
+    { "text": "PDF", "type": "link", "src": "https://hal-cnrs.archives-ouvertes.fr/hal-03482022/document" },
     { "text": "ARTIFACT", "type": "link", "src": "https://figshare.com/s/80cee4b7497d004dbc70" },
     { "text": "DATASET", "type": "link", "src": "https://figshare.com/s/a77d6b2687ab69416557" }
   ]
@@ -94,7 +98,10 @@ footer: >-
   "venue": "2016 16th International Conference on Control, Automation and Systems (ICCAS 2016)",
   "year": "2016",
   "awards": "Best Student Paper Award",
-  "url": "https://ieeexplore.ieee.org/document/7832293"
+  "url": "https://ieeexplore.ieee.org/document/7832293",
+  "files": [
+    { "text": "PDF", "type": "link", "src": "https://www.doc.ic.ac.uk/~mpd37/publications/tiwari_iccas2016.pdf" },
+  ]
 ```
 
 
@@ -131,7 +138,10 @@ footer: >-
   "title": "An Exact Algorithm for the Linear Tape Scheduling Problem",
   "authors": "Valentin Honoré and Bertrand Simon and Frédéric Suter",
   "year": "2022",
-  "url": "https://arxiv.org/abs/2112.09384"
+  "url": "https://arxiv.org/abs/2112.09384",
+  "files": [
+    { "text": "PDF", "type": "link", "src": "https://arxiv.org/pdf/2112.09384" }
+  ]
 ```
 
 ``` json {.paper}

@@ -92,8 +92,11 @@ A complete list of publications is available [here](publications.html).
   "authors": "Catherine Guelque, Valentin Honoré, Philippe Swartvagher, Gaël Thomas, François Trahay",
   "venue": "2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2025)",
   "year": "2025",
-  "url": "https://inria.hal.science/hal-04970114v0"
-
+  "url": "https://inria.hal.science/hal-04970114v0",
+  "files": [
+    { "text": "PDF", "type": "link", "src": "https://inria.hal.science/hal-04970114v0/document" },
+    { "text": "ARTIFACT", "type": "link", "src": "https://gitlab.inria.fr/pallas/IPDPS2025_Reproducibility" }
+  ]
 ```
 
 ``` json {.paper}
