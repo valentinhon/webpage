@@ -68,7 +68,7 @@ Do not hesitate to contact me if you want to collaborate or discuss on these top
 
 More details can be found on the [research](research.html) page.
 
-<span style="font-size:22px;padding:10px;background-color:#f0f0f0">
+<span style="font-size:22px;padding:10px;background-color:#ff0000">
 !!! NEWS !!!
 </span>
 <span style="padding:10px;background-color:#f0f0f0">

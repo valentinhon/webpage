@@ -54,7 +54,7 @@ See the dedicated webpage of the project <a href="vhs.html">here</a>.
 </span>
 
 
-## Post-doc (IN2P3, CNRS)
+## Post-doc ([CC-IN2P3](https://cc.in2p3.fr/), CNRS)
 
 ### Trustful Simulation of High-performance Workflows
 
@@ -69,7 +69,7 @@ The second research direction of my postdoc concerns the scheduling of user requ
 In addition, we also publicly released a [dataset](https://figshare.com/s/a77d6b2687ab69416557) of tape descriptions and associated user requests extracted from execution logs from the IN2P3 computing center.
 
 
-## PhD (Inria, TADaaM team)
+## PhD (Inria,   [TADaaM](https://team.inria.fr/tadaam/) team)
 
 My PhD focused on resource partitioning, design of scheduling strategies as so as data movement in HPC applications.
 

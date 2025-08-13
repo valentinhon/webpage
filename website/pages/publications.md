@@ -24,7 +24,6 @@ footer: >-
   made to be easy to use! 🎓
 ---
 
-# Publications
 
 **(Except the one with *, authors are listed in alphabetical order)**
 

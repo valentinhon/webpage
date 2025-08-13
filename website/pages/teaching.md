@@ -31,8 +31,6 @@ footer: >-
 I am teaching various courses at ensIIE. I am giving tutorials and practical sessions of almost all computer science modules of the first semester.
 I am also giving an adavanced course in the fifth semester about performance of distributed systems, introducing scheduling and performance analysis of distributed applications.
 
-For more details, please refer to the details [teaching](teaching.html) page.
-
 I am the head of the CIDM track, in partnership with the CEA. This track offers an advanced and complete program about HPC, BigData and Quantum computing.
 A full program description is available [here](https://www.ensiie.fr/formation).
 
