@@ -100,7 +100,7 @@ footer: >-
   "awards": "Best Student Paper Award",
   "url": "https://ieeexplore.ieee.org/document/7832293",
   "files": [
-    { "text": "PDF", "type": "link", "src": "https://www.doc.ic.ac.uk/~mpd37/publications/tiwari_iccas2016.pdf" },
+    { "text": "PDF", "type": "link", "src": "https://www.doc.ic.ac.uk/~mpd37/publications/tiwari_iccas2016.pdf" }
   ]
 ```
 

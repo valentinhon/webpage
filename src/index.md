@@ -175,4 +175,5 @@ From Sept. 2025, I will hold the Teaching Chair "Technologies avancées et émer
 
 ## Journal Committee
 
+  - 2025 : Reviewer for [TPDS](https://www.computer.org/csdl/journal/td)
   - 2020, 2023: Reviewer for [JPDC](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing)
