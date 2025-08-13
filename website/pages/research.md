@@ -78,3 +78,6 @@ I worked on two complementary research directions.
 In the first direction, I was interested in modeling and studying *in situ* processing, where simulation and analytics are done in parallel to avoid I/O congestion. This work was done in collaboration with [Bruno Raffin](http://datamove.imag.fr/bruno.raffin/), and our results were published in [IJHPCA](https://hal.inria.fr/hal-02091340/) journal.
 
 The second direction was  scheduling problems for stochastic applications, for instance Neuroscience applications. The goal was to propose optimal scheduling strategies for single-core stochastic application running on a reservation-based platform. Stochastic jobs are jobs whose execution time cannot be determined easily, mostly because they are input-dependent. They arise from the heterogeneous, dynamic and data-intensive requirements of new emerging fields such as neurosciences. I spent two months in Vanderbilt University, Nashville, USA working on this topic in the group of Padma Raghavan. Two papers on these topics were published in [IPDPS'19](https://hal.inria.fr/hal-01968419/), [IPDPS'20](https://hal.inria.fr/hal-02448393/), and a journal paper in [IEEE Transactions on Parallel and Distributed System](https://hal.inria.fr/hal-03010676v1/).
+
+
+# [Return to main page](https://valentinhon.github.io/webpage/)

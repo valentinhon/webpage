@@ -166,3 +166,6 @@ footer: >-
     { "text": "ARTIFACT", "type": "link", "src": "https://gitlab.inria.fr/vhonore/stochastic_scheduling_simulator" }
   ]
 ```
+
+
+# [Return to main page](https://valentinhon.github.io/webpage/)

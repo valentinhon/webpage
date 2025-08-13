@@ -61,3 +61,6 @@ Come back in fall 2025 for more details about the VHS project!
 This webpage will be updated by the end of 2025 with all information on the progress of the project.
 
 
+
+# [Return to main page](https://valentinhon.github.io/webpage/)
+
