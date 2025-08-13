@@ -28,7 +28,7 @@ footer: >-
 **(Except the one with *, authors are listed in alphabetical order)**
 
 
-## Conference papers
+# Conference papers
 
 ``` json {.paper}
   "title": "Pallas, a generic trace format for large HPC trace analysis",
@@ -104,7 +104,7 @@ footer: >-
 ```
 
 
-## Journal papers
+# Journal papers
 
 ``` json {.paper}
   "title": "Profiles of upcoming HPC Applications and their Impact on Reservation Strategies",
@@ -131,7 +131,7 @@ footer: >-
 ```
 
 
-## Research Reports and Preprints
+# Research Reports and Preprints
 
 ``` json {.paper}
   "title": "An Exact Algorithm for the Linear Tape Scheduling Problem",
