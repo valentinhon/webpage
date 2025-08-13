@@ -1,5 +1,5 @@
 ---
-title: Professionnal Webpage
+title: Valentin Honore's webpage
 author: Valentin Honoré
 shortbio: Associate Professor (Maître de Conférences) at ensIIE
 description-meta: Associate Professor (Maître de Conférences) at ensIIE
@@ -15,8 +15,8 @@ og-picture: https://basicpage.github.io/img/profile.png
 orcid: 0000-0003-1028-5719
 dblp: https://dblp.org/pid/248/5108.html
 scholar: https://scholar.google.com/citations?user=AwYK-44AAAAJ&hl=fr
-github: https://github.com/valentinhon/
-gitlab: https://gitlab.inria.fr/vhonore
+github: valentinhon
+gitlab: vhonore
 linkedin: https://www.linkedin.com/in/valentin-honore-334693100/
 footer: >-
   Based on the
@@ -43,9 +43,11 @@ Since 2023, I am working on performance analysis for large-scale applications in
 In addition, I also work on large-scale storage, in particular on how to efficiently use magnetic tape storage.
 Do not hesitate to contact me if you want to collaborate or discuss on these topics!!
 
-<span style="font-size:22px;padding:10px;background-color:#FF0000.">
+<span style="font-size:22px;padding:10px;background-color:#ff0000">
 !!! NEWS !!!
 </span>
+
+
 <span style="padding:10px;background-color:#f0f0f0">
 The VHS project has been funded by the <a href="https://anr.fr/fileadmin/aap/2025/selection/aapg-2025-selection.pdf">ANR JCJC program</a> for the AAPG 2025 project call.
 See the dedicated webpage of the project <a href="vhs.html">here</a>.

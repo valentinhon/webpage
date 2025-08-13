@@ -1,5 +1,5 @@
 ---
-title: Professionnal Webpage
+title: Valentin Honore's webpage
 author: Valentin Honoré
 shortbio: Associate Professor (Maître de Conférences) at ensIIE
 description-meta: Associate Professor (Maître de Conférences) at ensIIE
